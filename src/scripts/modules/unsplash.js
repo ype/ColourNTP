@@ -15,6 +15,10 @@ export default class Unsplash {
         unsplashUrl += 'weekly';
         break;
 
+      case UnsplashFrequency.RANDOM:
+        let unsplashUrl = `https://source.unsplash.com/random/${screen.width}x${screen.height}/`;
+        break;
+
       default:
         break;
       }
