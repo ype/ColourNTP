@@ -25,7 +25,7 @@ export const DEFAULTS = {
   american        : false,
 
   bg              : BackgroundImage.NONE,
-  bgUnsplashFreq  : UnsplashFrequency.DAILY,
+  bgUnsplashFreq  : UnsplashFrequency.RANDOM,
   bgCustomUrl     : '',
   bgOpacity       : 75,
 
